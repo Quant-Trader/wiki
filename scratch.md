@@ -2,7 +2,7 @@
 title: Scratch
 description: Scratch 二次开发纪要
 published: true
-date: 2020-05-13T22:38:22.381Z
+date: 2020-05-13T22:41:42.942Z
 tags: 
 ---
 
@@ -56,4 +56,13 @@ const initialState = {
 > 禁止host 检查
     "start": "webpack-dev-server  --disableHostCheck=true",
  
+## scratch-l10n
+1. editor
+> 删除其他语言的文件， 保留en, zh-cn
+
+2. src/*.js
+> 保留en, zh-cn
+
+3. www
+> 保留en, zh-cn
 ## scratch-www
