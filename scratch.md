@@ -2,7 +2,7 @@
 title: Scratch
 description: Scratch 二次开发纪要
 published: true
-date: 2020-05-13T13:48:16.900Z
+date: 2020-05-13T13:50:01.619Z
 tags: 
 ---
 
@@ -28,4 +28,7 @@ componentDidUpdate()
 5. src/lib/analytics.js
 > 注销google跟踪分析代码
 
+6. src/lib/libraries/*.json
+> *.js 增加了分类
+> *.json 增加了内容
 ## scratch-www
