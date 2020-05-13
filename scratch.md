@@ -2,7 +2,7 @@
 title: Scratch
 description: Scratch 二次开发纪要
 published: true
-date: 2020-05-13T13:37:31.008Z
+date: 2020-05-13T13:36:26.310Z
 tags: 
 ---
 
@@ -20,4 +20,4 @@ componentDidUpdate()
 
 3. src/components/cards/cards.jsx
 》 VideoStep.componentDidMount()
-注释掉国外网站视频https://fast.wistia.com/assets/external/E-v1.js
+注释掉国外网站视频
