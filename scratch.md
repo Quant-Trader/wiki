@@ -2,7 +2,7 @@
 title: Scratch
 description: Scratch 二次开发纪要
 published: true
-date: 2020-05-13T13:58:22.570Z
+date: 2020-05-13T14:03:33.905Z
 tags: 
 ---
 
@@ -37,4 +37,18 @@ componentDidUpdate()
 
 8. src/lib/screen-utils.js
 > 增强了对只能设备的支持， gui 宽度等于 min(设备宽度,当前gui 宽度)
+
+9. src/lib/storage.js
+> getAssetGetConfig() 修改了url         return `${this.assetHost}/assets/static/${asset.assetId}.${asset.dataFormat}`;
+
+10. src/reducers/locales.js
+> 修改为默认中文
+```javascript
+const initialState = {
+    isRtl: false,
+    locale: 'en',
+    messagesByLocale: editorMessages,
+    messages: editorMessages.en
+};
+```
 ## scratch-www
