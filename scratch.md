@@ -2,7 +2,7 @@
 title: Scratch
 description: Scratch 二次开发纪要
 published: true
-date: 2020-05-13T13:50:01.619Z
+date: 2020-05-13T13:58:22.570Z
 tags: 
 ---
 
@@ -30,5 +30,11 @@ componentDidUpdate()
 
 6. src/lib/libraries/*.json
 > *.js 增加了分类
-> *.json 增加了内容
+> *.json 增加了新的角色库内容
+
+7. src/lib/project-fetcher-hoc.jsx
+> 修改了assetHost， projectHost
+
+8. src/lib/screen-utils.js
+> 增强了对只能设备的支持， gui 宽度等于 min(设备宽度,当前gui 宽度)
 ## scratch-www
