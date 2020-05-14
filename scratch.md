@@ -2,7 +2,7 @@
 title: Scratch
 description: Scratch 二次开发纪要
 published: true
-date: 2020-05-14T01:37:01.673Z
+date: 2020-05-14T03:37:38.888Z
 tags: 
 ---
 
@@ -67,5 +67,7 @@ const initialState = {
 > 保留en, zh-cn
 
 ## scratch-www
-1. 在
+1. src/components/join-flow/join-flow.jsx
+> 简化了注册流程
+
 > 增加手机端自适应的支持
