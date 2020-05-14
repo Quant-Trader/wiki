@@ -2,7 +2,7 @@
 title: Scratch
 description: Scratch 二次开发纪要
 published: true
-date: 2020-05-13T22:41:42.942Z
+date: 2020-05-14T01:29:56.432Z
 tags: 
 ---
 
@@ -34,12 +34,15 @@ componentDidUpdate()
 
 7. src/lib/project-fetcher-hoc.jsx
 > 修改了assetHost， projectHost
+        assetHost: 'https://cdn.jzcode.cn',
+        projectHost: 'https://sc-projects.jzcode.cn'
 
 8. src/lib/screen-utils.js
 > 增强了对只能设备的支持， gui 宽度等于 min(设备宽度,当前gui 宽度)
 
 9. src/lib/storage.js
-> getAssetGetConfig() 修改了url         return `${this.assetHost}/assets/static/${asset.assetId}.${asset.dataFormat}`;
+> getAssetGetConfig() 修改了url 
+return `${this.assetHost}/assets/static/${asset.assetId}.${asset.dataFormat}`;
 
 10. src/reducers/locales.js
 > 修改为默认中文
@@ -65,4 +68,7 @@ const initialState = {
 
 3. www
 > 保留en, zh-cn
+
 ## scratch-www
+1. 在
+> 增加手机端自适应的支持
